@@ -8,7 +8,7 @@ A linear SVM with varying C values {0.1, 1 , 10 , 100} was trained and the decis
 
 ![](Figures/Linear_SVM.png)*Figure 2.Decision boundary of varying C values.*  
 
-The accuracy results of the linear SVM classifiers obtained using 10-times-10-fold cross validation are reported in Table I. 
+The accuracy results of the linear SVM classifiers obtained using 10-times-10-fold cross validation are reported in Table I.  
 TABLE I: LINEAR SVM ACCURACY RESULTS
 | C Value         | 0.1    | 1      | 10     | 100    |
 |-----------------|--------|--------|--------|--------|
@@ -20,7 +20,7 @@ learner classifier. The maximum number of weak learners was taken as T = 50.
 
 The ensemble model decision boundary using Linear SVM is shown in Figure 3.
 ![](Figures/LSVM_adaboost.png)*Figure 3. Decision boundary of ensemble model.*   
-The mean and variance of the accuracy results for the 10-times-10 fold cross validation of the ensemble learning using linear SVM are reported in Table II. 
+The mean and variance of the accuracy results for the 10-times-10 fold cross validation of the ensemble learning using linear SVM are reported in Table II.  
 TABLE II: LINEAR SVM ENSEMBLE LEARNING RESULTS
 | Accuracy | Variance | Standard Deviation |
 |:--------:|:--------:|:------------------:|
