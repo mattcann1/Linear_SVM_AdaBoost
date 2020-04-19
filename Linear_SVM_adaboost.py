@@ -1,7 +1,4 @@
-#SYDE 675
-#Matthew Cann
-#20863891
-#Assignment 3 Question 1
+
 
 
 #Linear SVM for Two-class Problem
@@ -24,7 +21,7 @@ C_best = 1
 #.....................................................................FUNCTIONS
 def get_classA_dataset():
     '''Reads in dataset 1'''
-    os.chdir('E:\Documents\Waterloo-Masters\SYDE 675\Assignment 3\Data')
+    os.chdir('\Data')
     df = pd.read_csv('classA.csv', delimiter=',', header = None)
 
     df.columns=['x1','x2']
@@ -32,7 +29,7 @@ def get_classA_dataset():
 
 def get_classB_dataset():
     '''Reads in dataset 2'''
-    os.chdir('E:\Documents\Waterloo-Masters\SYDE 675\Assignment 3\Data')
+    os.chdir('')
     df = pd.read_csv('classB.csv', delimiter=',', header = None)
 
     df.columns=['x1','x2']
